@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		245CECFE22C0E5A800AF6375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CECFD22C0E5A800AF6375 /* AppDelegate.swift */; };
+		245CED0022C0E5A800AF6375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CECFF22C0E5A800AF6375 /* ViewController.swift */; };
+		245CED0322C0E5A800AF6375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245CED0122C0E5A800AF6375 /* Main.storyboard */; };
+		245CED0522C0E5C100AF6375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245CED0422C0E5C100AF6375 /* Assets.xcassets */; };
+		245CED0822C0E5C100AF6375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245CED0622C0E5C100AF6375 /* LaunchScreen.storyboard */; };
+		245CED1322C0E5C700AF6375 /* ZRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CED1222C0E5C700AF6375 /* ZRepoTests.swift */; };
+		7065EE841FCAAE91304DF6D7 /* Pods_ZRepo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D102FC4FA9B6D585F1B96A76 /* Pods_ZRepo.framework */; };
+		E1434121AAC5C1D889A74DE6 /* Pods_ZRepoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF39D4EE354DB875DCAA2DB /* Pods_ZRepoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		245CED0F22C0E5C700AF6375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 245CECF222C0E5A700AF6375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 245CECF922C0E5A800AF6375;
+			remoteInfo = ZRepo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		245CECFA22C0E5A800AF6375 /* ZRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		245CECFD22C0E5A800AF6375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		245CECFF22C0E5A800AF6375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		245CED0222C0E5A800AF6375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		245CED0422C0E5C100AF6375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		245CED0722C0E5C100AF6375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		245CED0922C0E5C100AF6375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245CED0E22C0E5C700AF6375 /* ZRepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		245CED1222C0E5C700AF6375 /* ZRepoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZRepoTests.swift; sourceTree = "<group>"; };
+		245CED1422C0E5C700AF6375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3197BC8B822FCAC3487EA4 /* Pods-ZRepo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRepo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZRepo/Pods-ZRepo.release.xcconfig"; sourceTree = "<group>"; };
+		8C8366EEF584F083A402809B /* Pods-ZRepoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRepoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZRepoTests/Pods-ZRepoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9042C417D4F3B405CC7D184F /* Pods-ZRepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRepo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZRepo/Pods-ZRepo.debug.xcconfig"; sourceTree = "<group>"; };
+		BBF39D4EE354DB875DCAA2DB /* Pods_ZRepoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZRepoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D102FC4FA9B6D585F1B96A76 /* Pods_ZRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52F67A8835BE009BA917896 /* Pods-ZRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRepoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZRepoTests/Pods-ZRepoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		245CECF722C0E5A800AF6375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7065EE841FCAAE91304DF6D7 /* Pods_ZRepo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245CED0B22C0E5C700AF6375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1434121AAC5C1D889A74DE6 /* Pods_ZRepoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		245CECF122C0E5A700AF6375 = {
+			isa = PBXGroup;
+			children = (
+				245CECFC22C0E5A800AF6375 /* ZRepo */,
+				245CED1122C0E5C700AF6375 /* ZRepoTests */,
+				245CECFB22C0E5A800AF6375 /* Products */,
+				84B26137E2CEF02CDA0986E6 /* Pods */,
+				968765D0A5E3A36BB3DA01DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		245CECFB22C0E5A800AF6375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				245CECFA22C0E5A800AF6375 /* ZRepo.app */,
+				245CED0E22C0E5C700AF6375 /* ZRepoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		245CECFC22C0E5A800AF6375 /* ZRepo */ = {
+			isa = PBXGroup;
+			children = (
+				245CECFD22C0E5A800AF6375 /* AppDelegate.swift */,
+				245CECFF22C0E5A800AF6375 /* ViewController.swift */,
+				245CED0122C0E5A800AF6375 /* Main.storyboard */,
+				245CED0422C0E5C100AF6375 /* Assets.xcassets */,
+				245CED0622C0E5C100AF6375 /* LaunchScreen.storyboard */,
+				245CED0922C0E5C100AF6375 /* Info.plist */,
+			);
+			path = ZRepo;
+			sourceTree = "<group>";
+		};
+		245CED1122C0E5C700AF6375 /* ZRepoTests */ = {
+			isa = PBXGroup;
+			children = (
+				245CED1222C0E5C700AF6375 /* ZRepoTests.swift */,
+				245CED1422C0E5C700AF6375 /* Info.plist */,
+			);
+			path = ZRepoTests;
+			sourceTree = "<group>";
+		};
+		84B26137E2CEF02CDA0986E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9042C417D4F3B405CC7D184F /* Pods-ZRepo.debug.xcconfig */,
+				3D3197BC8B822FCAC3487EA4 /* Pods-ZRepo.release.xcconfig */,
+				8C8366EEF584F083A402809B /* Pods-ZRepoTests.debug.xcconfig */,
+				E52F67A8835BE009BA917896 /* Pods-ZRepoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		968765D0A5E3A36BB3DA01DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D102FC4FA9B6D585F1B96A76 /* Pods_ZRepo.framework */,
+				BBF39D4EE354DB875DCAA2DB /* Pods_ZRepoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		245CECF922C0E5A800AF6375 /* ZRepo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245CED1722C0E5C700AF6375 /* Build configuration list for PBXNativeTarget "ZRepo" */;
+			buildPhases = (
+				788486DC9F79087828FE0B00 /* [CP] Check Pods Manifest.lock */,
+				245CECF622C0E5A800AF6375 /* Sources */,
+				245CECF722C0E5A800AF6375 /* Frameworks */,
+				245CECF822C0E5A800AF6375 /* Resources */,
+				BBDF2EA904EB14B851695E53 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRepo;
+			productName = ZRepo;
+			productReference = 245CECFA22C0E5A800AF6375 /* ZRepo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		245CED0D22C0E5C700AF6375 /* ZRepoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245CED1A22C0E5C700AF6375 /* Build configuration list for PBXNativeTarget "ZRepoTests" */;
+			buildPhases = (
+				4ECFDCDC01D3D4D324B6B7B7 /* [CP] Check Pods Manifest.lock */,
+				245CED0A22C0E5C700AF6375 /* Sources */,
+				245CED0B22C0E5C700AF6375 /* Frameworks */,
+				245CED0C22C0E5C700AF6375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				245CED1022C0E5C700AF6375 /* PBXTargetDependency */,
+			);
+			name = ZRepoTests;
+			productName = ZRepoTests;
+			productReference = 245CED0E22C0E5C700AF6375 /* ZRepoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		245CECF222C0E5A700AF6375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Мак";
+				TargetAttributes = {
+					245CECF922C0E5A800AF6375 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					245CED0D22C0E5C700AF6375 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 245CECF922C0E5A800AF6375;
+					};
+				};
+			};
+			buildConfigurationList = 245CECF522C0E5A700AF6375 /* Build configuration list for PBXProject "ZRepo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 245CECF122C0E5A700AF6375;
+			productRefGroup = 245CECFB22C0E5A800AF6375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				245CECF922C0E5A800AF6375 /* ZRepo */,
+				245CED0D22C0E5C700AF6375 /* ZRepoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		245CECF822C0E5A800AF6375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245CED0822C0E5C100AF6375 /* LaunchScreen.storyboard in Resources */,
+				245CED0522C0E5C100AF6375 /* Assets.xcassets in Resources */,
+				245CED0322C0E5A800AF6375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245CED0C22C0E5C700AF6375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ECFDCDC01D3D4D324B6B7B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZRepoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788486DC9F79087828FE0B00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZRepo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDF2EA904EB14B851695E53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZRepo/Pods-ZRepo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZRepo/Pods-ZRepo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		245CECF622C0E5A800AF6375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245CED0022C0E5A800AF6375 /* ViewController.swift in Sources */,
+				245CECFE22C0E5A800AF6375 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245CED0A22C0E5C700AF6375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245CED1322C0E5C700AF6375 /* ZRepoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		245CED1022C0E5C700AF6375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 245CECF922C0E5A800AF6375 /* ZRepo */;
+			targetProxy = 245CED0F22C0E5C700AF6375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		245CED0122C0E5A800AF6375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				245CED0222C0E5A800AF6375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		245CED0622C0E5C100AF6375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				245CED0722C0E5C100AF6375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		245CED1522C0E5C700AF6375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		245CED1622C0E5C700AF6375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		245CED1822C0E5C700AF6375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9042C417D4F3B405CC7D184F /* Pods-ZRepo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2H4W42259;
+				INFOPLIST_FILE = ZRepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.ZRepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		245CED1922C0E5C700AF6375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3197BC8B822FCAC3487EA4 /* Pods-ZRepo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2H4W42259;
+				INFOPLIST_FILE = ZRepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.ZRepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		245CED1B22C0E5C700AF6375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8366EEF584F083A402809B /* Pods-ZRepoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2H4W42259;
+				INFOPLIST_FILE = ZRepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.ZRepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRepo.app/ZRepo";
+			};
+			name = Debug;
+		};
+		245CED1C22C0E5C700AF6375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52F67A8835BE009BA917896 /* Pods-ZRepoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2H4W42259;
+				INFOPLIST_FILE = ZRepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.ZRepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRepo.app/ZRepo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		245CECF522C0E5A700AF6375 /* Build configuration list for PBXProject "ZRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245CED1522C0E5C700AF6375 /* Debug */,
+				245CED1622C0E5C700AF6375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		245CED1722C0E5C700AF6375 /* Build configuration list for PBXNativeTarget "ZRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245CED1822C0E5C700AF6375 /* Debug */,
+				245CED1922C0E5C700AF6375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		245CED1A22C0E5C700AF6375 /* Build configuration list for PBXNativeTarget "ZRepoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245CED1B22C0E5C700AF6375 /* Debug */,
+				245CED1C22C0E5C700AF6375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 245CECF222C0E5A700AF6375 /* Project object */;
+}
